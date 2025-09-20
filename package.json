@@ -6,6 +6,26 @@
     "test:report": "playwright test --reporter=html && playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.46.0"
-  }
+    "@playwright/test": "^1.55.0"
+  },
+  "description": "",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khernandezc18-sketch/Prueba-QA1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khernandezc18-sketch/Prueba-QA1/issues"
+  },
+  "homepage": "https://github.com/khernandezc18-sketch/Prueba-QA1#readme"
 }
